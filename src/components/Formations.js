@@ -2,7 +2,8 @@ import React from "react";
 
 function Formations() {
   return (
-    <section className="container mt-4">
+    <div className='container mt-4'>
+    <section className="section">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">
@@ -36,6 +37,7 @@ function Formations() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

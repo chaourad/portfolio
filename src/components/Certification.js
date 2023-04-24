@@ -2,7 +2,7 @@ import React from "react";
 
 function Certification() {
   return (
-    <div className="container mt-4">
+    
       <section className="section">
         <div className="paper-container">
           <div className="paper-row mb-4">
@@ -123,7 +123,7 @@ function Certification() {
           </div>
         </div>
       </section>
-    </div>
+   
   );
 }
 

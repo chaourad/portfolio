@@ -1,17 +1,33 @@
-import React from 'react'
+import React from "react";
 
 function Accueil() {
   return (
-    <div>
-    <div class="card">
-<div class="card-body">
-  <h5 class="card-title">CHAOURAD Imane</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div className="container">
+    <section className="section">
 
-</div>
-</div>
-  </div>
-  )
+          <div className='project-container'>
+            <div className='project-card card'>
+              <div className='card-body'>
+                <div className='project-title card-title h5'>
+                CHAOURAD Imane                </div>
+                <div className='project-school card-subtitle h6'>
+                Je suis une étudiante en 2ème cycle d'ingénierie en informatique et
+            réseaux . Autonome, challenger, déterminée et motivée à apprendre,
+            avec un fort esprit d'équipe et un sens de l'autocritique continue.
+            Passionnée par l'apprentissage et toujours à la recherche de
+            nouveaux défis pour me perfectionner professionnellement. Je suis
+            constamment en quête d'amélioration et je suis ouverte aux feedbacks
+            constructifs pour me développer davantage                </div>
+              </div>
+            </div>
+          </div>
+        
+
+
+    
+    </section>
+    </div>
+  );
 }
 
-export default Accueil
+export default Accueil;
